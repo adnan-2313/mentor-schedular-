@@ -19,11 +19,11 @@ const AsideNavbar = () => {
           </div>
           <div className="flex  w-[60%]">
             <ul className="flex flex-col gap-6 w-full" >
-              <li className="flex flex-row bg-[#ff7000] text-white cursor-pointer pl-[5px] pr-[40px] py-[5px] rounded-[20px] justify-between  w-full items-center gap-2 font-semibold"><GoHomeFill className="text-[20px] "/>Home</li>
-              <li className="flex flex-row hover:bg-gray-200 cursor-pointer pl-[5px] pr-[40px] py-[5px] rounded-[20px] justify-between items-center gap-2 font-semibold"><HiOutlineClipboardList className="text-[20px]"/>Order</li>
-              <li className="flex flex-row hover:bg-gray-200 cursor-pointer  pl-[5px] pr-[40px] py-[5px] rounded-[20px] justify-between items-center gap-2 font-semibold"><HiReceiptTax className="text-[20px]"/>Bills</li>
-              <li className="flex flex-row hover:bg-gray-200 cursor-pointer pl-[5px] pr-[40px] py-[5px] rounded-[20px] justify-between items-center gap-2 font-semibold"><BiCategory  className="text-[20px]"/>Categories</li>
-              <li className="flex flex-row hover:bg-gray-200 cursor-pointer  pl-[5px] pr-[40px] py-[5px] rounded-[20px] justify-between items-center gap-2 font-semibold"><IoSettingsOutline className="text-[20px]"/>Settings</li>
+              <li className="flex flex-row bg-[#ff7000] text-white cursor-pointer   py-[5px] rounded-[20px] justify-center  w-full items-center gap-2 font-semibold"><GoHomeFill className="text-[20px] "/>Home</li>
+              <li className="flex flex-row hover:bg-gray-200 cursor-pointer py-[5px] rounded-[20px] justify-center items-center gap-2 font-semibold"><HiOutlineClipboardList className="text-[20px]"/>Order</li>
+              <li className="flex flex-row hover:bg-gray-200 cursor-pointer  py-[5px] rounded-[20px] justify-center items-center gap-2 font-semibold"><HiReceiptTax className="text-[20px]"/>Bills</li>
+              <li className="flex flex-row hover:bg-gray-200 cursor-pointer py-[5px] rounded-[20px] justify-center items-center gap-2 font-semibold"><BiCategory  className="text-[20px]"/>Categories</li>
+              <li className="flex flex-row hover:bg-gray-200 cursor-pointer  py-[5px] rounded-[20px] justify-center items-center gap-2 font-semibold"><IoSettingsOutline className="text-[20px]"/>Settings</li>
                
             </ul>
           </div>
