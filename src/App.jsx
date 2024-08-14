@@ -1,14 +1,10 @@
-import Dashboard from "./Components/Dashboard";
-import AsideNavbar from "./Components/AsideNavbar";
-import Header from "./Components/Header";
+import StudentHome from "./Components/Student/StudentHome";
+import { Outlet } from "react-router-dom";
 const App = () => {
   return (
     <>
-      <Header />
-      <div className="flex flex-row">
-        <AsideNavbar />
-        <Dashboard />
-      </div>
+      <StudentHome />
+      <Outlet />
     </>
   );
 };
