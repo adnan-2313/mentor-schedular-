@@ -1,39 +1,9 @@
 import { useState } from "react";
 import logo from "../Utils/logo.png";
-import { AiOutlineHome } from "react-icons/ai";
-import { GiBackwardTime } from "react-icons/gi";
-import { RiCalendarScheduleLine } from "react-icons/ri";
-import { MdAssignment } from "react-icons/md";
+
 import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
-  const menuItems = [
-    {
-      id: 1,
-      icon: <AiOutlineHome />,
-      label: "Dashboard",
-      link: "/studentDashboard",
-    },
-    {
-      id: 2,
-      icon: <RiCalendarScheduleLine />,
-      label: "Mentor",
-      link: "/scheduleMentor",
-    },
-    {
-      id: 3,
-      icon: <GiBackwardTime />,
-      label: "Session",
-      link: "/studentSession",
-    },
-    {
-      id: 4,
-      icon: <MdAssignment />,
-      label: "Assessment",
-      link: "/scheduleAssignment",
-    },
-  ];
-
+const Navbar = ({menuItems}) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (

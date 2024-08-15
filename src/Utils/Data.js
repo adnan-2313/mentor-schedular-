@@ -3,7 +3,18 @@ export const mentors = [
   {
     id: "mentor1",
     name: "John Doe",
+    gender: "male",
     area_of_interest: ["React", "Node.js"],
+    img: "https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png",
+    available_slots: ["18:00-18:30", "18:30-19:00", "19:00-19:30"],
+    booked_slots: [],
+  },
+  {
+    id: "mentor2",
+    name: "Ayesha Ahmed",
+    gender: "female",
+    area_of_interest: ["ML", "DL", "AI"],
+    img: "https://www.shareicon.net/data/512x512/2016/09/15/829453_user_512x512.png",
     available_slots: ["18:00-18:30", "18:30-19:00", "19:00-19:30"],
     booked_slots: [],
   },
